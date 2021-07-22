@@ -1,0 +1,160 @@
+.navbar{
+    padding: 20px;
+  }
+  
+  .nav-item{
+    font-weight: 600;
+    text-transform: capitalize;
+    color: black;
+  }
+  
+  .navbar-light .navbar-nav .nav-item .nav-link:hover,
+  .navbar-light .navbar-nav .nav-item.active .nav-link{
+    background: #fd9250;
+    color: #fff;
+  }
+  
+  .navbar-light .navbar-nav .nav-item .nav-link{
+    color: coral;
+    padding: 5px 10px;
+  }
+
+  body{
+	color: #777777;
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 1.625em;
+	position: relative;
+}
+
+h4{
+	color: #222222;
+	line-height: 1.2em !important;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.section-gap{
+	padding: 128px 0;
+}
+
+.section-title{
+	margin-bottom: 20;
+}
+
+.section-title h2{
+	margin-bottom: 30;
+}
+
+.section-title p{
+	font-size: 16px;
+	margin-bottom: 0;
+}
+
+@media (max-width: 991px){
+	.section-title p hr{
+		display: none;
+	}
+}
+
+.single-blog{
+	overflow: hidden;
+}
+
+.single-blog .thumb{
+	overflow: hidden;
+}
+
+.single-blog:hover{
+	cursor: pointer;
+}
+
+.single-blog:hover img{
+	transform: scale(1,2);
+}
+
+.single-blog img{
+	overflow: hidden;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+}
+
+.single-blog h4{
+	margin-bottom: 12px;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+.single-blog a{
+	color: #000;
+}
+
+.single-blog .date{
+	font-weight: 600;
+	padding: 2px 15px;
+	margin-top: 20px; 
+    color: #f71e0e;
+}
+
+@media(max-width: 800px){
+	.single-blog{
+		margin-bottom: 30px;
+	}
+}
+
+.subheading{
+	font-size: 70px;
+	font-weight: 800;
+	color: #000;
+}
+
+
+  footer{
+    background: rgba(0, 0, 0, 0.8);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+  }
+  
+  footer p>span{
+    color: coral;
+  }
+  
+  footer input{
+    border: none!important;
+  }
+  
+  footer input::placeholder{
+    color: white!important;
+  }
+  
+  footer .input-group .input-group-text{
+    background: coral;
+  }
+  
+  /* Extra small devices (portrait phones, less than 576px)*/
+  @media (max-width: 771px) { 
+  
+  }
+  
+  
+  /* Medium devices (tablets, less than 992px) */
+  @media (max-width: 1085px) { 
+  .container{
+    text-align: left;
+    padding: 10px;
+    margin-top: 15%;
+    width: 230px;
+    color: #111;
+    height: 100px;
+    background: transparent;
+    transform: translate( -50%, -50%);
+  }
+  }
+  

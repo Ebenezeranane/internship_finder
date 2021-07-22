@@ -1,0 +1,89 @@
+.navbar{
+    padding: 20px;
+  }
+  
+  .nav-item{
+    font-weight: 600;
+    text-transform: capitalize;
+    color: black;
+  }
+  
+  .navbar-light .navbar-nav .nav-item .nav-link:hover,
+  .navbar-light .navbar-nav .nav-item.active .nav-link{
+    background: #fd9250;
+    color: #fff;
+  }
+  
+  .navbar-light .navbar-nav .nav-item .nav-link{
+    color: coral;
+    padding: 5px 10px;
+  }
+  
+  .row .container .text .reliable{
+    font-size: xx-large;
+  }
+  
+  .gap100{
+      padding: 120px 0px;
+  }
+  
+  .text-black{
+      font-size: 70px;
+      font-weight: 800;
+      color: #000;
+  }
+  
+  .btn{
+    background-color: coral;
+    border-radius: 0px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.1)
+    }
+  
+    .btn:hover{
+      background-color: black;
+    }
+    
+  footer{
+    background: rgba(0, 0, 0, 0.8);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+    margin-top: 50px;
+  }
+  
+  footer p>span{
+    color: coral;
+  }
+  
+  footer input{
+    border: none!important;
+  }
+  
+  footer input::placeholder{
+    color: white!important;
+  }
+  
+  footer .input-group .input-group-text{
+    background: coral;
+  }
+  
+  /* Extra small devices (portrait phones, less than 576px)*/
+  @media (max-width: 771px) { 
+  
+  }
+  
+  
+  /* Medium devices (tablets, less than 992px) */
+  @media (max-width: 1085px) { 
+  .container{
+    text-align: left;
+    padding: 10px;
+    margin-top: 15%;
+    width: 230px;
+    color: #111;
+    height: 100px;
+    background: transparent;
+    transform: translate( -50%, -50%);
+  }
+  }
+  

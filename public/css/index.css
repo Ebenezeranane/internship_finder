@@ -1,0 +1,150 @@
+.navbar{
+  padding: 20px;
+}
+
+.nav-item{
+  font-weight: 600;
+  text-transform: capitalize;
+  color: black;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link{
+  background: #fd9250;
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link{
+  color: coral;
+  padding: 5px 10px;
+}
+
+.row .container .text .reliable{
+  font-size: xx-large;
+}
+
+.btn{
+  background-color: coral;
+  border-radius: 0px;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.1)
+  }
+  
+  .btn:hover{
+    background-color: #111;
+  }
+
+  .container{
+    text-align: left;
+    padding: 20px;
+    margin-top: 25%;
+    width: 500px;
+    color: #111;
+    background: transparent;
+    transform: translate( -50%, -50%);
+}
+
+  .bg{
+    background-image: url(/img/bg.jpg);
+    height: 820px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-1{
+  padding: 20vmin 0;
+}
+
+.section-1 .row .col-md-6 .pray img{
+  opacity: 0.8;
+  width: 80%;
+  border-radius: 0.2em;
+}
+
+.section-1 .row .col-md-6:last-child{
+  position: relative;
+}
+
+.section-1 .row .col-md-5 .panel{
+  position: absolute;
+  top: 7vmin;
+  left: -20vmin;
+  background: white;
+  border-radius: 15px;
+  text-align: left;
+  padding: 13vmin 5vmin 20vmin 10vmin;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.section-1 .row .col-md-5 .panel h1{
+    font-weight: bold;
+    font-style: 2em;
+}
+
+.section-1 .row .col-md-5 .panel p{
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.section-4 .team{
+  padding: 10vmin 4vmin;
+}
+
+.section-4.card{
+  width: 30rem;
+  margin-top: 20vmin;
+  border-radius: 20px;
+}
+
+.section-4.card-text{
+  padding: 0.5em;
+}
+
+.section-4.card.card-body>a{
+  font-size: 1.5em;
+}
+
+footer{
+  background: rgba(0, 0, 0, 0.8);
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+
+footer p>span{
+  color: coral;
+}
+
+footer input{
+  border: none!important;
+}
+
+footer input::placeholder{
+  color: white!important;
+}
+
+footer .input-group .input-group-text{
+  background: coral;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 771px) { 
+
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 1085px) { 
+.container{
+  text-align: left;
+  padding: 10px;
+  margin-top: 15%;
+  width: 230px;
+  color: #111;
+  height: 100px;
+  background: transparent;
+  transform: translate( -50%, -50%);
+}
+}
